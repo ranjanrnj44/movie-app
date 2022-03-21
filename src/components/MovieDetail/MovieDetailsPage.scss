@@ -1,0 +1,58 @@
+@import "../../common/colors.scss";
+
+.movie-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2.5rem 0;
+  color: $font-primary;
+  font-weight: 500;
+}
+.movie-rating {
+  padding-left: 0.2rem;
+  margin-top: 1.2rem;
+  color: $font-secondary;
+  display: flex;
+  span {
+    margin-right: 1.2rem;
+  }
+}
+
+.movie-title {
+  font-size: 2.2rem;
+  color: $font-primary;
+}
+.movie-plot {
+  margin-top: 1.2rem;
+  line-height: 1.5rem;
+}
+.movie-info > div span:first-child {
+  padding: 0.6rem, 0;
+  color: $font-primary;
+  font-weight: 700;
+  width: 6rem;
+  display: inline-block;
+}
+
+.movie-info > div span {
+  color: $font-secondary;
+}
+.fa-star {
+  color: goldenrod;
+}
+.fa-thumbs-up {
+  color: whitesmoke;
+}
+.fa-film {
+  color: whitesmoke;
+}
+.fa-calendar {
+  color: yellow;
+}
+
+.back-button {
+  border: none;
+  padding: 1.5rem;
+  background-color: gold;
+  font-size: 1rem;
+  cursor: pointer;
+}
